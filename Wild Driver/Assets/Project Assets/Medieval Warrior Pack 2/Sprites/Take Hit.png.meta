@@ -1,21 +1,21 @@
 fileFormatVersion: 2
-guid: 3503a79f1b9d59f4a8af006cb749f681
+guid: 6112573e6823cab409954af5edabcd51
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8008791250619013794
-    second: Take Hit - white silhouette_0
+      213: -7500690451134026123
+    second: Take Hit_0
   - first:
-      213: 3891156215361153934
-    second: Take Hit - white silhouette_1
+      213: -889859373511162655
+    second: Take Hit_1
   - first:
-      213: -7146689698409757683
-    second: Take Hit - white silhouette_2
+      213: -3088938797480143695
+    second: Take Hit_2
   - first:
-      213: 8523606802079886837
-    second: Take Hit - white silhouette_3
+      213: -9206091644520726168
+    second: Take Hit_3
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -35,6 +35,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -44,8 +45,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -66,9 +67,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -134,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Take Hit - white silhouette_0
+      name: Take Hit_0
       rect:
         serializedVersion: 2
         x: 0
@@ -148,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64eaef3e16820e14b82b7bb4417bb787
-      internalID: -8008791250619013794
+      spriteID: f91be8670c282464e939c1d0f966c147
+      internalID: -7500690451134026123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Take Hit - white silhouette_1
+      name: Take Hit_1
       rect:
         serializedVersion: 2
         x: 150
@@ -169,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 310eed264223bac45b6ccd1349b4bac4
-      internalID: 3891156215361153934
+      spriteID: 6e95a0dd6e3367c49ae0cc4108ffc4b8
+      internalID: -889859373511162655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Take Hit - white silhouette_2
+      name: Take Hit_2
       rect:
         serializedVersion: 2
         x: 300
@@ -190,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5924b840987660348b49fce771d7b737
-      internalID: -7146689698409757683
+      spriteID: dc6ebc6a05dd2b24eb54bc5831010f3f
+      internalID: -3088938797480143695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Take Hit - white silhouette_3
+      name: Take Hit_3
       rect:
         serializedVersion: 2
         x: 450
@@ -211,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f5092561824b4e44aacbcf706e700fd
-      internalID: 8523606802079886837
+      spriteID: 0bd55dfd4dff0b54ba1b0bcee0ddc1ce
+      internalID: -9206091644520726168
       vertices: []
       indices: 
       edges: []
