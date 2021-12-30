@@ -5,6 +5,8 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
 
+    [SerializeField] float destroyDelay = 0.5f;
+
     void OnCollisionEnter2D(Collision2D other) 
     {
         Debug.Log("Ouch!");
@@ -20,6 +22,7 @@ public class Collision : MonoBehaviour
         if (other.tag == "Enemy" )
         {
             Debug.Log("You Hit Something!");
+            Destroy(other.gameObject, destroyDelay);
         }
     }
 
