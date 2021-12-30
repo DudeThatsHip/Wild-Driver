@@ -12,7 +12,15 @@ public class Collision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        Debug.Log("you passed me");
+        // if (the thing we trigger is the package)
+        // {
+        //      then print "package picked up" to the console
+        // }
+        
+        if (other.tag == "Enemy" )
+        {
+            Debug.Log("You Hit Something!");
+        }
     }
 
 }
